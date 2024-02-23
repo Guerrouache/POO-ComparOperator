@@ -1,3 +1,4 @@
+
 -- phpMyAdmin SQL Dump
 -- version 5.1.2
 -- https://www.phpmyadmin.net/
@@ -63,7 +64,7 @@ CREATE TABLE `review` (
 
 INSERT INTO `review` (`id`, `message`, `author`, `tour_operator_id`) VALUES
 (1, 'Super voyage, prestation au top !!', 'Michel', 2),
-(2, 'Tout est inclus dans le prix, c\'est cool, je recommande', 'Paul', 3),
+(2, "Tout est inclus dans le prix, c'est cool, je recommande", 'Paul', 3),
 (3, 'Un peu cher, mais ça vaut le coup', 'Paul', 2),
 (4, 'arnaque!!!! a fuire!!!', 'René', 2);
 
@@ -157,3 +158,5 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- comparo_simple.sql
+-- Affichage de comparo_simple.sql
